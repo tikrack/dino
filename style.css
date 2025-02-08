@@ -44,3 +44,19 @@ body {
         right: 600px;
     }
 }
+
+.jump {
+    animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 140px;
+    }
+    50% {
+        top: 50px;
+    }
+    100% {
+        top: 140px;
+    }
+}
